@@ -3205,13 +3205,13 @@ html-escaper@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
 
-http-encoding@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/http-encoding/-/http-encoding-1.4.0.tgz#d4645dbb5963d8bb58643c47d27d2f565ebdfadc"
-  integrity sha512-/9OTWAsy31YMNpt7JRAZGsfUFFkkqdPR7TNXVSnrJ0UjrBHhx1CUa3veMjS6vSpCq3sU4wpIgVoK/snv80RTPQ==
+http-encoding@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/http-encoding/-/http-encoding-1.5.0.tgz#bdc98d1900c0901ea87506930b52fc9839797eb7"
+  integrity sha512-C/Lzx/4zdElYL3Her+bc/wX8oJuQkp3G+HTGXlSS2GINfj7LWqlwZsn2iZr4CExPqno7oPNgFfALhgscf9qnzA==
   dependencies:
     brotli-wasm "^1.1.0"
-    zstd-codec "^0.1.2"
+    zstd-codec "^0.1.4"
 
 http-errors@1.8.0:
   version "1.8.0"
@@ -4389,10 +4389,10 @@ mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
-mockttp@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/mockttp/-/mockttp-2.5.1.tgz#dc40704203c01d4ec7d91421cc20bc1eae2e2c4d"
-  integrity sha512-giwCj28tCr6+RwRTTKnuf2qM7vI5hjs3+tKEcLnAiR1O8R9EHcjlgjBf7JvuF25clEDZKsLUg7NKbkB3CIUN6A==
+mockttp@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/mockttp/-/mockttp-2.6.0.tgz#c51f35ac41e0389b747a6ddc3110e0844e64df07"
+  integrity sha512-yr3q7osj893MIoYAfOsJF7v0BdDbMbtLTGdF6gv3V3enqWEQB2iJWo/+O5YxlqH7uIGLjT14nAyE+uId4MOlzA==
   dependencies:
     "@graphql-tools/schema" "^7.1.5"
     "@httptoolkit/httpolyglot" "^2.0.1"
@@ -4413,7 +4413,7 @@ mockttp@2.5.1:
     fetch-ponyfill "^7.1.0"
     graphql "^14.0.2 || ^15.5"
     graphql-subscriptions "^1.1.0"
-    http-encoding "^1.4.0"
+    http-encoding "^1.5.0"
     http2-wrapper "2.0.5"
     lodash "^4.16.4"
     native-duplexpair "^1.0.0"
@@ -4421,7 +4421,7 @@ mockttp@2.5.1:
     performance-now "^2.1.0"
     portfinder "^1.0.23"
     typed-error "^3.0.2"
-    uuid "^3.1.0"
+    uuid "^8.3.2"
     ws "^7.3.1"
 
 ms@2.0.0:
@@ -5930,10 +5930,10 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.1.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
-  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
@@ -6241,7 +6241,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zstd-codec@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/zstd-codec/-/zstd-codec-0.1.2.tgz#6a13b7e666d9066d5236cbab760862a44f2660a0"
-  integrity sha512-t1gdk33h1wT7YcBPebyGWGJTWodKsJVfDeVN0q2x/htPGLEX3BAuBvOFsU4W3BplbmTXwvH8c/TUZ/DPTXOFfg==
+zstd-codec@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/zstd-codec/-/zstd-codec-0.1.4.tgz#6abb311b63cfacbd06e72797ee6c6e1c7c65248c"
+  integrity sha512-KYnWoFWgGtWyQEKNnUcb3u8ZtKO8dn5d8u+oGpxPlopqsPyv60U8suDyfk7Z7UtAO6Sk5i1aVcAs9RbaB1n36A==
