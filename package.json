@@ -65,7 +65,7 @@
     "@typescript-eslint/eslint-plugin": "5.10.0",
     "@typescript-eslint/parser": "5.10.0",
     "body-parser": "1.19.1",
-    "browser-sync": "2.27.7",
+    "browser-sync": "2.27.8",
     "connect": "3.7.0",
     "eslint": "8.7.0",
     "eslint-config-prettier": "8.3.0",
